@@ -1,0 +1,11 @@
+database:
+  url: "sqlite:///domain_system.db"  # برای production: "postgresql://user:pass@localhost/dbname"
+  echo: false  # در production false شود
+
+  # برای PostgreSQL
+  postgresql:
+    host: "localhost"
+    port: 5432
+    database: "domain_system"
+    username: "your_username"
+    password: "your_password"
